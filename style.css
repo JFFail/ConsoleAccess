@@ -1,0 +1,41 @@
+html {
+    font-family: 'Palatino Linotype','Book Antiqua',Palatino, serif;
+}
+
+table {
+    border: 3px solid black;
+    padding: 5px;
+    border-spacing: 3px;
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 3px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 3px;
+}
+
+td.bigger {
+    width: 80%;
+}
+
+td.smaller {
+    width: 20%;
+}
+
+p {
+    font-size: 10pt;
+}
+
+h1.center {
+    text-align: center;
+}
