@@ -1,34 +1,52 @@
 html {
     font-family: 'Palatino Linotype','Book Antiqua',Palatino, serif;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #72858E;
 }
 
 table {
-    border: 3px solid black;
-    padding: 5px;
-    border-spacing: 3px;
-    background-color: #FFFFFF;
-    width: 700px;
+    border: none;
+    background-color: #72858E;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 
 tr {
-    border: 1px solid black;
-    padding: 5px;
-    border-spacing: 3px;
+    border: none;
 }
 
 td {
-    border: 1px solid black;
-    padding: 5px;
-    border-spacing: 3px;
+    border: none;
+    padding: 10px;
 }
 
-td.bigger {
+h1 {
+    text-transform: uppercase;
+}
+
+.topBar {
+    height: 250px;
+    background: #516874;
+    border: none;
+}
+
+.nav {
+    width: 185px;
+    background-color: #444749;
+    border: none;
+}
+
+.bigger {
     width: 80%;
 }
 
-td.smaller {
+.smaller {
     width: 20%;
 }
 
@@ -36,6 +54,14 @@ p {
     font-size: 10pt;
 }
 
-h1.center {
+.center {
+    text-align: center;
+}
+
+.main {
+    vertical-align: top;
+}
+
+.title {
     text-align: center;
 }
