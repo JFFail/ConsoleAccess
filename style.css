@@ -5,49 +5,24 @@ html {
 
 body {
     height: 100%;
-    background-color: #72858E;
+    background-color: #D6D6D6;
 }
 
-table {
-    border: none;
-    background-color: #72858E;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+main {
+    width: 70%;
+    background-color: #D6D6D6;
+    float: right;
 }
 
-tr {
-    border: none;
-}
-
-td {
-    border: none;
-    padding: 10px;
+.sidebar {
+    width: 25%;
+    background-color: #FFFFFF;
+    float: left;
+    position: fixed;
 }
 
 h1 {
     text-transform: uppercase;
-}
-
-.topBar {
-    height: 250px;
-    background: #516874;
-    border: none;
-}
-
-.nav {
-    width: 185px;
-    background-color: #444749;
-    border: none;
-}
-
-.bigger {
-    width: 80%;
-}
-
-.smaller {
-    width: 20%;
 }
 
 p {
@@ -58,10 +33,14 @@ p {
     text-align: center;
 }
 
-.main {
-    vertical-align: top;
-}
-
 .title {
     text-align: center;
+}
+
+.sidebarPadding {
+    padding-left: 10%;
+}
+
+.linkPadding {
+    padding-left: 5%;
 }

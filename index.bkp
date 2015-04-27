@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Console Access - Where there's a shell there's a way.</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="nav" rowspan="2">
+                    <h2>Navigation Pane</h2>
+                </td>
+                <td class="topBar">
+                    <h1 class="center">Welcome!</h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="main">
+                    <h2 class="title">This is more text.</h2>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
